@@ -1,5 +1,5 @@
 # express-request-capture
-Node.js express middleware for capturing HTTP request and responses
+Node.js express middleware for capturing HTTP requests and responses
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -7,13 +7,13 @@ Node.js express middleware for capturing HTTP request and responses
 ## Install
 
 ```bash
-$ npm install express-request-capture
+$ npm install @clearonline/express-request-capture
 ```
 
 ## API
 
 ```js
-var requestCapture = require ('express-request-capture')
+var requestCapture = require ('@clearonline/express-request-capture')
 ```
 
 ### requestCapture ({ channel: string, url?: string })
@@ -70,3 +70,61 @@ app.use(requestCapture(printAdapter))
 [npm-url]: https://npmjs.org/package/express-request-capture
 [downloads-image]: https://img.shields.io/npm/dm/express-request-capture.svg?style=flat
 [downloads-url]: https://npmjs.org/package/express-request-capture
+
+
+# Blog
+
+## Description
+
+Monitoring your web app is one the many ways to prevent hackers from breaking your app. In this tutorial, we do this by creating an expressjs middleware that logs all information related to the received request and return response.
+
+## Goal
+
+Capture all requests (request and response) that my express application handles.
+
+## Step by Step
+
+* 1. initialize npm package
+
+```sh
+mkdir express-request-capture && cd express-request-capture
+npm init -y
+```
+
+* 2. create `index.js` file
+
+```sh
+# this will be the entry/main file of our middleware
+touch index.js
+```
+
+* 3. add content to `index.js` file
+
+```js
+module.exports = require('./src/capture.js')
+```
+
+* 3. create the `src` folder
+
+```sh
+mkdir src
+```
+
+* 3. create a `capture.js` file inside `src`
+
+* 4. put logic inside the `capture.js` file
+
+* 5. publish to npm
+
+```sh
+npm login
+npm publish
+```
+
+* 6. use the middleware
+
+```sh
+
+```
+
+
