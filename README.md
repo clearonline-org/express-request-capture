@@ -16,7 +16,7 @@ $ npm install express-request-capture
 var requestCapture = require ('express-request-capture')
 ```
 
-### requestCapture ()
+### requestCapture ({ channel: string, url?: string })
 TODO what the middleware outputs
 
 ## Examples
