@@ -46,7 +46,7 @@ app.use(requestCapture(printAdapter))
             trigger: "solar energy"
         },
         host: "localhost:3000",
-        ip: "127.0.0.1"
+        clientIp: "192.111.1.1"
     },
     response: {
         header: {
@@ -55,8 +55,7 @@ app.use(requestCapture(printAdapter))
         body: {
             message: "Thank you for subscribing, i will send you notes every monday!"
         }
-    },
-    clientIp: "192.111.1.1"
+    }
 }
 ```
 
@@ -71,6 +70,9 @@ app.use(requestCapture(printAdapter))
 [downloads-image]: https://img.shields.io/npm/dm/express-request-capture.svg?style=flat
 [downloads-url]: https://npmjs.org/package/express-request-capture
 
+## Chanelog
+
+### [06-02-2017] only console is supported
 
 # Blog
 

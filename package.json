@@ -4,7 +4,7 @@
   "description": "Node.js express middleware for capturing HTTP request and responses",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/clearonline-org/express-request-capture/issues"
   },
-  "homepage": "https://github.com/clearonline-org/express-request-capture#readme"
+  "homepage": "https://github.com/clearonline-org/express-request-capture#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  },
+  "dependencies": {
+    "body": "^5.1.0"
+  }
 }
