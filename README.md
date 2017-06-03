@@ -7,7 +7,7 @@ Node.js express middleware for capturing HTTP requests and responses
 ## Install
 
 ```bash
-$ npm install @clearonline/express-request-capture
+npm install @clearonline/express-request-capture
 ```
 
 ## API
@@ -86,37 +86,37 @@ Capture all requests (request and response) that my express application handles.
 
 ## Step by Step
 
-* 1. initialize npm package
+* initialize npm package
 
 ```sh
 mkdir express-request-capture && cd express-request-capture
 npm init -y
 ```
 
-* 2. create `index.js` file
+* create `index.js` file
 
 ```sh
 # this will be the entry/main file of our middleware
 touch index.js
 ```
 
-* 3. add content to `index.js` file
+* add content to `index.js` file
 
 ```js
 module.exports = require('./src/capture.js')
 ```
 
-* 3. create the `src` folder
+* create the `src` folder
 
 ```sh
 mkdir src
 ```
 
-* 3. create a `capture.js` file inside `src`
+* create a `capture.js` file inside `src`
 
-* 4. put logic inside the `capture.js` file
+* put logic inside the `capture.js` file
 
-* 5. publish to npm
+* publish to npm
 
 ```sh
 npm login
