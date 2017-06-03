@@ -65,10 +65,10 @@ app.use(requestCapture(printAdapter))
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/express-request-capture.svg?style=flat
-[npm-url]: https://npmjs.org/package/express-request-capture
-[downloads-image]: https://img.shields.io/npm/dm/express-request-capture.svg?style=flat
-[downloads-url]: https://npmjs.org/package/express-request-capture
+[npm-image]: https://img.shields.io/npm/v/@clearonline/express-request-capture.svg?style=flat
+[npm-url]: https://npmjs.org/package/@clearonline/express-request-capture
+[downloads-image]: https://img.shields.io/npm/dm/@clearonline/express-request-capture.svg?style=flat
+[downloads-url]: https://npmjs.org/package/@clearonline/express-request-capture
 
 ## Chanelog
 
