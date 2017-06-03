@@ -1,6 +1,6 @@
 {
   "name": "@clearonline/express-request-capture",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js express middleware for capturing HTTP request and responses",
   "main": "index.js",
   "scripts": {
