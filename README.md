@@ -71,6 +71,8 @@ app.use(requestCapture(printAdapter))
 [downloads-url]: https://npmjs.org/package/@clearonline/express-request-capture
 
 
+## Changelog
+[Changelog of this project](CHANGELOG.md)
 # Blog
 
 ## Description
@@ -125,5 +127,3 @@ npm publish
 ```sh
 
 ```
-
-
