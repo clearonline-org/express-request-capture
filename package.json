@@ -1,10 +1,12 @@
 {
   "name": "@clearonline/express-request-capture",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js express middleware for capturing HTTP request and responses",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.test.js"
+    "test": "node test/index.test.js",
+    "build": "rollup src/index.js --format cjs --output bundle.js",
+    "prepublish": "rollup src/index.js --format cjs --output bundle.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/clearonline-org/express-request-capture#readme",
   "devDependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "rollup": "^0.42.0"
   },
   "dependencies": {
     "body": "^5.1.0"
