@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.use(require('../index.js')({ channel: 'console' }));
+app.use(require('../index.js')({ channel: 'console' }))
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
