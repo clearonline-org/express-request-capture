@@ -63,7 +63,7 @@ app.use(requestCapture(printAdapter))
 
 ## License
 
-[BSD-3](LICENSE)
+[MIT](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/@clearonline/express-request-capture.svg?style=flat
 [npm-url]: https://npmjs.org/package/@clearonline/express-request-capture
