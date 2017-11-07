@@ -70,10 +70,9 @@ app.use(requestCapture(printAdapter))
 [downloads-image]: https://img.shields.io/npm/dm/@clearonline/express-request-capture.svg?style=flat
 [downloads-url]: https://npmjs.org/package/@clearonline/express-request-capture
 
-## Chanelog
 
-### [06-02-2017] only console is supported
-
+## Changelog
+[Changelog of this project](CHANGELOG.md)
 # Blog
 
 ## Description
@@ -128,5 +127,3 @@ npm publish
 ```sh
 
 ```
-
-
